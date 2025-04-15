@@ -17,6 +17,14 @@ var json_POSTES_CNT_3 = {
 { "type": "Feature", "properties": { "id": null, "NRO_POSTE": "CNT335" }, "geometry": { "type": "Point", "coordinates": [ -79.97293, -4.044859 ] } },
 { "type": "Feature", "properties": { "id": null, "NRO_POSTE": "CNT334" }, "geometry": { "type": "Point", "coordinates": [ -79.973222756644773, -4.045087749105352 ] } },
 { "type": "Feature", "properties": { "id": null, "NRO_POSTE": "CNT332" }, "geometry": { "type": "Point", "coordinates": [ -79.973989, -4.045113 ] } },
-{ "type": "Feature", "properties": { "id": null, "NRO_POSTE": "CNT333" }, "geometry": { "type": "Point", "coordinates": [ -79.973535819510062, -4.045111449152452 ] } }
+{ "type": "Feature", "properties": { "id": null, "NRO_POSTE": "CNT333" }, "geometry": { "type": "Point", "coordinates": [ -79.973535819510062, -4.045111449152452 ] } },
+{ "type": "Feature", "properties": { "id": null, "NRO_POSTE": "CNT327" }, "geometry": { "type": "Point", "coordinates": [ -79.973499, -4.046977 ] } },
+{ "type": "Feature", "properties": { "id": null, "NRO_POSTE": "CNT326" }, "geometry": { "type": "Point", "coordinates": [ -79.97358007690957, -4.047965673283608 ] } },
+{ "type": "Feature", "properties": { "id": null, "NRO_POSTE": "CNT325" }, "geometry": { "type": "Point", "coordinates": [ -79.973939726510835, -4.048212199334191 ] } },
+{ "type": "Feature", "properties": { "id": null, "NRO_POSTE": "CNT324" }, "geometry": { "type": "Point", "coordinates": [ -79.974073, -4.048629 ] } },
+{ "type": "Feature", "properties": { "id": null, "NRO_POSTE": "CNT323" }, "geometry": { "type": "Point", "coordinates": [ -79.973945316919171, -4.049205505704776 ] } },
+{ "type": "Feature", "properties": { "id": null, "NRO_POSTE": "CNT322" }, "geometry": { "type": "Point", "coordinates": [ -79.973759435842894, -4.049653015966067 ] } },
+{ "type": "Feature", "properties": { "id": null, "NRO_POSTE": "CNT321" }, "geometry": { "type": "Point", "coordinates": [ -79.97349, -4.049873 ] } },
+{ "type": "Feature", "properties": { "id": null, "NRO_POSTE": "CNT248" }, "geometry": { "type": "Point", "coordinates": [ -79.975324, -4.075516 ] } }
 ]
 }

@@ -55,7 +55,7 @@
         <script>
         var map = L.map('map', {
             zoomControl:false, maxZoom:28, minZoom:1
-        }).fitBounds([[-4.0453665731449755,-79.97299494750659],[-4.039801227165104,-79.96438571871066]]);
+        }).fitBounds([[-4.108778185880134,-80.02901353446694],[-4.038344481966731,-79.92005298251964]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
@@ -827,6 +827,19 @@
               i++;
         });
         var i = 0;
+        layer_NAPS_10.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['ETIQUETA'] !== null?String('<div style="color: #f5720d; font-size: 10pt; font-weight: bold; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['ETIQUETA']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_NAPS_10'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+        var i = 0;
         layer_SECTORES_11.eachLayer(function(layer) {
             var context = {
                 feature: layer.feature,
@@ -839,15 +852,15 @@
               addLabel(layer, i);
               i++;
         });
-        resetLabels([layer_POSTE_METALICO_1,layer_POSTES_EERSSA_2,layer_POSTES_CNT_3,layer_NODO_7,layer_DOMOS_9,layer_SECTORES_11]);
+        resetLabels([layer_POSTE_METALICO_1,layer_POSTES_EERSSA_2,layer_POSTES_CNT_3,layer_NODO_7,layer_DOMOS_9,layer_NAPS_10,layer_SECTORES_11]);
         map.on("zoomend", function(){
-            resetLabels([layer_POSTE_METALICO_1,layer_POSTES_EERSSA_2,layer_POSTES_CNT_3,layer_NODO_7,layer_DOMOS_9,layer_SECTORES_11]);
+            resetLabels([layer_POSTE_METALICO_1,layer_POSTES_EERSSA_2,layer_POSTES_CNT_3,layer_NODO_7,layer_DOMOS_9,layer_NAPS_10,layer_SECTORES_11]);
         });
         map.on("layeradd", function(){
-            resetLabels([layer_POSTE_METALICO_1,layer_POSTES_EERSSA_2,layer_POSTES_CNT_3,layer_NODO_7,layer_DOMOS_9,layer_SECTORES_11]);
+            resetLabels([layer_POSTE_METALICO_1,layer_POSTES_EERSSA_2,layer_POSTES_CNT_3,layer_NODO_7,layer_DOMOS_9,layer_NAPS_10,layer_SECTORES_11]);
         });
         map.on("layerremove", function(){
-            resetLabels([layer_POSTE_METALICO_1,layer_POSTES_EERSSA_2,layer_POSTES_CNT_3,layer_NODO_7,layer_DOMOS_9,layer_SECTORES_11]);
+            resetLabels([layer_POSTE_METALICO_1,layer_POSTES_EERSSA_2,layer_POSTES_CNT_3,layer_NODO_7,layer_DOMOS_9,layer_NAPS_10,layer_SECTORES_11]);
         });
         </script>
     </body>
