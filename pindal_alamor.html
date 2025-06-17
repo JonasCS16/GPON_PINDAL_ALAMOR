@@ -56,7 +56,7 @@
         <script>
         var map = L.map('map', {
             zoomControl:false, maxZoom:28, minZoom:1
-        }).fitBounds([[-4.357452242078896,-80.12570207650784],[-4.183585521386199,-79.85666367663451]]);
+        }).fitBounds([[-4.288924618973152,-80.0594577139318],[-4.274999778171075,-80.03791033915662]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
@@ -456,6 +456,9 @@
                     <tr>\
                         <th scope="row">NOMBRE</th>\
                         <td>' + (feature.properties['NOMBRE'] !== null ? autolinker.link(feature.properties['NOMBRE'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['ENRUTAMIEN'] !== null ? autolinker.link(feature.properties['ENRUTAMIEN'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
