@@ -9,16 +9,16 @@ var style_POSTE_METALICO_1 = function(feature, resolution){
     var value = ""
     var labelText = "";
     size = 0;
-    var labelFont = "10px, sans-serif";
-    var labelFill = "#000000";
+    var labelFont = "13.0px \'MS Shell Dlg 2\', sans-serif";
+    var labelFill = "#0d94fa";
     var bufferColor = "";
     var bufferWidth = 0;
     var textAlign = "left";
     var offsetX = 8;
     var offsetY = 3;
     var placement = 'point';
-    if ("" !== null) {
-        labelText = String("");
+    if (feature.get("ALTURA") !== null) {
+        labelText = String(feature.get("ALTURA"));
     }
     var style = [ new ol.style.Style({
         image: new ol.style.Circle({radius: 4.0 + size,
