@@ -18,8 +18,10 @@ var json_DOMOS_10 = {
 { "type": "Feature", "properties": { "id": null, "ETIQUETA": "H1D4.1" }, "geometry": { "type": "Point", "coordinates": [ -80.14895851525479, -4.263031754587229 ] } },
 { "type": "Feature", "properties": { "id": null, "ETIQUETA": "H1D4" }, "geometry": { "type": "Point", "coordinates": [ -80.149195, -4.25964 ] } },
 { "type": "Feature", "properties": { "id": null, "ETIQUETA": "H1D1" }, "geometry": { "type": "Point", "coordinates": [ -80.053423263456025, -4.284898980225538 ] } },
-{ "type": "Feature", "properties": { "id": null, "ETIQUETA": "H1D2" }, "geometry": { "type": "Point", "coordinates": [ -80.109311241366257, -4.270328325867602 ] } },
+{ "type": "Feature", "properties": { "id": null, "ETIQUETA": "H1D2" }, "geometry": { "type": "Point", "coordinates": [ -80.10950605153711, -4.270262158735784 ] } },
 { "type": "Feature", "properties": { "id": null, "ETIQUETA": "H1D3" }, "geometry": { "type": "Point", "coordinates": [ -80.120617382248568, -4.268537043088016 ] } },
-{ "type": "Feature", "properties": { "id": null, "ETIQUETA": null }, "geometry": { "type": "Point", "coordinates": [ -80.114004169420568, -4.26970650920233 ] } }
+{ "type": "Feature", "properties": { "id": null, "ETIQUETA": null }, "geometry": { "type": "Point", "coordinates": [ -80.114004169420568, -4.26970650920233 ] } },
+{ "type": "Feature", "properties": { "id": null, "ETIQUETA": null }, "geometry": { "type": "Point", "coordinates": [ -80.106332554073376, -4.269991791803426 ] } },
+{ "type": "Feature", "properties": { "id": null, "ETIQUETA": "H1D5" }, "geometry": { "type": "Point", "coordinates": [ -80.043895847710274, -4.292072459281457 ] } }
 ]
 }

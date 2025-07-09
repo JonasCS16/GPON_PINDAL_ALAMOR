@@ -754,3 +754,17 @@ function fnc__specialcol_(values, context) {
 function fnc_project_color(values, context) {
     return false;
 };
+
+
+
+function exp_POSTES_EERSSA_2rule0_eval_expression(context) {
+    // TRAFO = 'FALSE'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['TRAFO']  == 'FALSE');
+    } else {
+        return (feature['TRAFO']  == 'FALSE');
+    }
+}
