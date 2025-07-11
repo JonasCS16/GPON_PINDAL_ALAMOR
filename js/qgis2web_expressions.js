@@ -768,3 +768,16 @@ function exp_POSTES_EERSSA_2rule0_eval_expression(context) {
         return (feature['TRAFO']  == 'FALSE');
     }
 }
+
+
+function exp_POSTES_EERSSA_2rule1_eval_expression(context) {
+    // TRAFO = 'TRUE'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['TRAFO']  == 'TRUE');
+    } else {
+        return (feature['TRAFO']  == 'TRUE');
+    }
+}
