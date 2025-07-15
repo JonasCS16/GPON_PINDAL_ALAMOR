@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="css/L.Control.Locate.min.css">
         <link rel="stylesheet" href="css/qgis2web.css">
         <link rel="stylesheet" href="css/fontawesome-all.min.css">
-        <link rel="stylesheet" href="css/leaflet-control-geocoder.Geocoder.css">
+        <link rel="stylesheet" href="css/leaflet.photon.css">
         <link rel="stylesheet" href="css/leaflet-measure.css">
         <style>
         html, body, #map {
@@ -39,7 +39,7 @@
         <script src="js/rbush.min.js"></script>
         <script src="js/labelgun.min.js"></script>
         <script src="js/labels.js"></script>
-        <script src="js/leaflet-control-geocoder.Geocoder.js"></script>
+        <script src="js/leaflet.photon.js"></script>
         <script src="js/leaflet-measure.js"></script>
         <script src="data/POSTE_METALICO_1.js"></script>
         <script src="data/POSTES_EERSSA_2.js"></script>
@@ -56,7 +56,7 @@
         <script>
         var map = L.map('map', {
             zoomControl:false, maxZoom:28, minZoom:1
-        }).fitBounds([[-4.292522107911833,-80.04515847221589],[-4.288278140365791,-80.03859126116544]]);
+        }).fitBounds([[-4.279865846700461,-80.2159693599076],[-4.2628895546832775,-80.18970051570655]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
@@ -215,7 +215,7 @@
                 else if (exp_POSTES_EERSSA_2rule1_eval_expression(context)) {
                   return {
                 pane: 'pane_POSTES_EERSSA_2',
-                radius: 3.9999999999999982,
+                radius: 4.0,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
                 dashArray: '',
@@ -794,16 +794,6 @@
         });
         bounds_group.addLayer(layer_SECTORES_12);
         map.addLayer(layer_SECTORES_12);
-        var osmGeocoder = new L.Control.Geocoder({
-            collapsed: true,
-            position: 'topleft',
-            text: 'Search',
-            title: 'Testing'
-        }).addTo(map);
-        document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
-        .className += ' fa fa-search';
-        document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
-        .title += 'Search for a place';
         var overlaysTree = [
             {label: '<img src="legend/SECTORES_12.png" /> SECTORES', layer: layer_SECTORES_12},
             {label: '<img src="legend/NAPS_11.png" /> NAPS', layer: layer_NAPS_11},
