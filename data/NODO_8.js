@@ -11,6 +11,7 @@ var json_NODO_8 = {
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "NODO:ALAMOR", "ENRUTAMIEN": null }, "geometry": { "type": "Point", "coordinates": [ -80.018970492112189, -4.015989255684684 ] } },
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "NODO_ZAPOTILLO", "ENRUTAMIEN": null }, "geometry": { "type": "Point", "coordinates": [ -80.244575176512797, -4.387834094272646 ] } },
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "NODO_MACARA", "ENRUTAMIEN": null }, "geometry": { "type": "Point", "coordinates": [ -79.941095639104148, -4.384781698400567 ] } },
-{ "type": "Feature", "properties": { "id": null, "NOMBRE": "NODO_ALGODONAL", "ENRUTAMIEN": null }, "geometry": { "type": "Point", "coordinates": [ -80.0537660542673, -4.285191566639855 ] } }
+{ "type": "Feature", "properties": { "id": null, "NOMBRE": "NODO_ALGODONAL", "ENRUTAMIEN": null }, "geometry": { "type": "Point", "coordinates": [ -80.0537660542673, -4.285191566639855 ] } },
+{ "type": "Feature", "properties": { "id": null, "NOMBRE": "NODO: UTUANA", "ENRUTAMIEN": null }, "geometry": { "type": "Point", "coordinates": [ -79.707900780910691, -4.36184879162299 ] } }
 ]
 }
