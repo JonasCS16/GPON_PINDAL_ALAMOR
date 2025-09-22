@@ -29,8 +29,13 @@ var json_MANGAS_LINEALES_9 = {
 { "type": "Feature", "properties": { "id": null, "ETIQUETA": null }, "geometry": { "type": "Point", "coordinates": [ -79.63022472521024, -4.328751495739544 ] } },
 { "type": "Feature", "properties": { "id": null, "ETIQUETA": null }, "geometry": { "type": "Point", "coordinates": [ -79.653477435611634, -4.321701492780447 ] } },
 { "type": "Feature", "properties": { "id": null, "ETIQUETA": null }, "geometry": { "type": "Point", "coordinates": [ -79.67675041957655, -4.313611358055933 ] } },
-{ "type": "Feature", "properties": { "id": null, "ETIQUETA": "MG_LINEAL_01" }, "geometry": { "type": "Point", "coordinates": [ -79.923042, -4.380142 ] } },
-{ "type": "Feature", "properties": { "id": null, "ETIQUETA": "MG_LINEAL_02" }, "geometry": { "type": "Point", "coordinates": [ -79.900782141676345, -4.382128545563435 ] } },
-{ "type": "Feature", "properties": { "id": null, "ETIQUETA": "MG_LINEAL_03" }, "geometry": { "type": "Point", "coordinates": [ -79.879083, -4.384575 ] } }
+{ "type": "Feature", "properties": { "id": null, "ETIQUETA": "MG_LINEAL_01" }, "geometry": { "type": "Point", "coordinates": [ -79.94050110353146, -4.382899550347749 ] } },
+{ "type": "Feature", "properties": { "id": null, "ETIQUETA": "MG_LINEAL_02" }, "geometry": { "type": "Point", "coordinates": [ -79.923042, -4.380142 ] } },
+{ "type": "Feature", "properties": { "id": null, "ETIQUETA": "MG_LINEAL_03" }, "geometry": { "type": "Point", "coordinates": [ -79.900782141676345, -4.382128545563435 ] } },
+{ "type": "Feature", "properties": { "id": null, "ETIQUETA": "MG_LINEAL_04" }, "geometry": { "type": "Point", "coordinates": [ -79.879083, -4.384575 ] } },
+{ "type": "Feature", "properties": { "id": null, "ETIQUETA": "MG_LINEAL_06" }, "geometry": { "type": "Point", "coordinates": [ -79.822895041993078, -4.392205449484549 ] } },
+{ "type": "Feature", "properties": { "id": null, "ETIQUETA": "MG_LINEAL_05" }, "geometry": { "type": "Point", "coordinates": [ -79.849722739724015, -4.389871630273215 ] } },
+{ "type": "Feature", "properties": { "id": null, "ETIQUETA": null }, "geometry": { "type": "Point", "coordinates": [ -79.774302135556582, -4.336654532974657 ] } },
+{ "type": "Feature", "properties": { "id": null, "ETIQUETA": null }, "geometry": { "type": "Point", "coordinates": [ -79.6860428589398, -4.32332072625752 ] } }
 ]
 }
