@@ -286,6 +286,14 @@ var json_POSTES_EERSSA_2 = {
 { "type": "Feature", "properties": { "id": null, "NRO_POSTE": "278197", "TRAFO": "TRUE" }, "geometry": { "type": "Point", "coordinates": [ -79.964896834041667, -4.379712498452375 ] } },
 { "type": "Feature", "properties": { "id": null, "NRO_POSTE": "253354", "TRAFO": "FALSE" }, "geometry": { "type": "Point", "coordinates": [ -79.965034211781301, -4.381152569393818 ] } },
 { "type": "Feature", "properties": { "id": null, "NRO_POSTE": "100514", "TRAFO": "TRUE" }, "geometry": { "type": "Point", "coordinates": [ -79.964964915045357, -4.381370761718816 ] } },
-{ "type": "Feature", "properties": { "id": null, "NRO_POSTE": null, "TRAFO": "FALSE" }, "geometry": { "type": "Point", "coordinates": [ -79.96504515337115, -4.381879876896224 ] } }
+{ "type": "Feature", "properties": { "id": null, "NRO_POSTE": null, "TRAFO": "FALSE" }, "geometry": { "type": "Point", "coordinates": [ -79.96504515337115, -4.381879876896224 ] } },
+{ "type": "Feature", "properties": { "id": null, "NRO_POSTE": "278852", "TRAFO": "FALSE" }, "geometry": { "type": "Point", "coordinates": [ -79.975198, -4.373251 ] } },
+{ "type": "Feature", "properties": { "id": null, "NRO_POSTE": "278591", "TRAFO": "FALSE" }, "geometry": { "type": "Point", "coordinates": [ -79.974855, -4.373434 ] } },
+{ "type": "Feature", "properties": { "id": null, "NRO_POSTE": "278600", "TRAFO": "FALSE" }, "geometry": { "type": "Point", "coordinates": [ -79.974767, -4.373732 ] } },
+{ "type": "Feature", "properties": { "id": null, "NRO_POSTE": "278592", "TRAFO": "FALSE" }, "geometry": { "type": "Point", "coordinates": [ -79.974477, -4.373778 ] } },
+{ "type": "Feature", "properties": { "id": null, "NRO_POSTE": "278599", "TRAFO": "FALSE" }, "geometry": { "type": "Point", "coordinates": [ -79.974177, -4.373758 ] } },
+{ "type": "Feature", "properties": { "id": null, "NRO_POSTE": "278794", "TRAFO": "TRUE" }, "geometry": { "type": "Point", "coordinates": [ -79.97392, -4.373741 ] } },
+{ "type": "Feature", "properties": { "id": null, "NRO_POSTE": "278826", "TRAFO": "FALSE" }, "geometry": { "type": "Point", "coordinates": [ -79.973679, -4.373858 ] } },
+{ "type": "Feature", "properties": { "id": null, "NRO_POSTE": "100524", "TRAFO": "FALSE" }, "geometry": { "type": "Point", "coordinates": [ -79.973245723018636, -4.373190627326394 ] } }
 ]
 }
