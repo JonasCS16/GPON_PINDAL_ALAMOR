@@ -13,6 +13,10 @@ var json_SECTORES_12 = {
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "Vicin" }, "geometry": { "type": "Point", "coordinates": [ -80.109891412193804, -4.26887607626896 ] } },
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "Jaguay" }, "geometry": { "type": "Point", "coordinates": [ -80.152497008164929, -4.264514993693906 ] } },
 { "type": "Feature", "properties": { "id": null, "NOMBRE": "Hacienda Vieja" }, "geometry": { "type": "Point", "coordinates": [ -80.204937577300626, -4.26774332992921 ] } },
-{ "type": "Feature", "properties": { "id": null, "NOMBRE": "Pasaje de Jujal" }, "geometry": { "type": "Point", "coordinates": [ -80.04083079385164, -4.2899714738018 ] } }
+{ "type": "Feature", "properties": { "id": null, "NOMBRE": "Pasaje de Jujal" }, "geometry": { "type": "Point", "coordinates": [ -80.04083079385164, -4.2899714738018 ] } },
+{ "type": "Feature", "properties": { "id": null, "NOMBRE": "BADEAL" }, "geometry": { "type": "Point", "coordinates": [ -79.960813663986485, -4.379717512470592 ] } },
+{ "type": "Feature", "properties": { "id": null, "NOMBRE": "LA CRUZ" }, "geometry": { "type": "Point", "coordinates": [ -79.97776765750308, -4.368507774717497 ] } },
+{ "type": "Feature", "properties": { "id": null, "NOMBRE": "MACHANGUILLA" }, "geometry": { "type": "Point", "coordinates": [ -79.988525975751017, -4.345899597287089 ] } },
+{ "type": "Feature", "properties": { "id": null, "NOMBRE": "LA GUATARA" }, "geometry": { "type": "Point", "coordinates": [ -79.974632892002916, -4.326269290619608 ] } }
 ]
 }
